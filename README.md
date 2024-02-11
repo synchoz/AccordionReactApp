@@ -1,3 +1,8 @@
+# A small React project one of 25 i am trying to do to enhance my React skills + Learning to Dockerize
+an Accordion react app used CSS/React
+![image](https://github.com/synchoz/AccordionReactApp/assets/45513321/a55a8e0c-e7a5-48f6-b2cb-b27225706a09)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
