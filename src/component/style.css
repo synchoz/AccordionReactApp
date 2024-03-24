@@ -1,0 +1,72 @@
+.accordionDiv {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.accordionDivFirstItem {
+    border-left: yellow 2px solid;
+    margin: 5px 0px;
+}
+
+.accordionDivSecondItem {
+    border-left: orange 2px solid;
+    margin: 5px 0px;
+}
+
+.accordionDivThirdItem {
+    border-left: purple 2px solid;
+    margin: 5px 0px;
+}
+
+.accordionHeader {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.d-center {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.accordionContent {
+    padding: 5px
+}
+
+.accordionMain:not(.active)>.accordionContent {
+    display: none;
+}
+
+.accordionMain.active>.accordionHeader>.iconPlus {
+    transform: rotate(45deg);
+    transition: transform 0.1s linear;
+}
+
+.iconPlus {
+    background-image: url(/src/images/icons8-plus-24.png);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.1s linear;
+}
+
+.BGlightgoldenrodyellow {
+    background-color: lightgoldenrodyellow;
+}
+
+.BGmistyrose {
+    background-color: mistyrose;
+}
+
+.BGfloralwhite {
+    background-color: floralwhite;
+}
+
+.flex-col {
+    flex-direction: column;
+}
