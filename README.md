@@ -2,6 +2,8 @@
 an Accordion react app used CSS/React
 ![image](https://github.com/synchoz/AccordionReactApp/assets/45513321/a55a8e0c-e7a5-48f6-b2cb-b27225706a09)
 
+*Update now possible to make a multi select
+
 
 # Getting Started with Create React App
 
